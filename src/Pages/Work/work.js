@@ -1,36 +1,62 @@
-import React from "react";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
 
-import Project from "./Project/project";
-import Fade from "react-reveal/Fade";
-import data from "../../data/mydata";
+.work {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 15em;
+  top: 8em;
+  align-items: flex-start;
+}
 
-import "./work.css";
+.work .heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5em;
+  text-align: left;
+}
 
-const work = () => {
-  return (
-    <div className="work">
-      <h1 className="heading">
-        <Fade bottom cascade>
-          Projecten
-        </Fade>
-      </h1>
-      <p>Klik op de foto voor meer details</p>
-      <div className="work-content">
-        {data.projects.map((project) => (
-          <Project
-            key={project.id}
-            title={project.title}
-            service={project.service}
-            imageSrc={project.imageSrc}
-            url={project.url}
-            //description={project.description}
-          ></Project>
-        ))}
-      </div>
-    </div>
-  );
-};
+.work .work-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
 
-work.propTypes = {};
+@media screen and (max-width: 800px) {
+  .work {
+    left: 4em;
+    margin-top: 2em;
+    align-items: flex-start;
+  }
+  .work p {
+    left: 4em;
+    margin-top: 2em;
+    align-items: flex-start;
+    size: 1em;
+  }
+  .work .work-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 7em;
+    font-size: small;
+  }
+}
 
-export default work;
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .work {
+    left: 3em;
+    margin-top: -4em;
+    align-items: flex-start;
+  }
+  .work p {
+    left: 4em;
+    margin-top: 2em;
+    align-items: flex-start;
+    size: 1em;
+  }
+  .work .work-content {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 7em;
+    font-size: small;
+  }
+}
