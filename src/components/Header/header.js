@@ -35,7 +35,7 @@ const header = () => {
           </button>
           <br></br>
           <button>
-            <a href={"https://www.linkedin.com/in/narine-vanbeginne-a574a950/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAArAXKMB_iUNNz9qWrnxuCenkT4lw_x8Qu8,1593765887633)/"} rel="noopener noreferrer">
+            <a href={"https://www.linkedin.com/in/narine-vanbeginne-a574a950/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAArAXKMB_iUNNz9qWrnxuCenkT4lw_x8Qu8,1593765887633)/">
               CV: Zoom&Download
             </a>
           </button>
