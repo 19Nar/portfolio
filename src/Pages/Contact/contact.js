@@ -35,7 +35,7 @@ const contact = () => {
             <span>
               <h3>
                 {" "}
-                <a href="/">narinevanbeginne.be</a>
+                <a href="narinevanbeginne.be">narinevanbeginne.be</a>
               </h3>
             </span>
           </ul>
