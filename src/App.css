@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: purple;
+  top: 4em;
+}
+
+.App-header h1 {
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 6px;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+    z-index: 1;
+  }
+  .App {
+    text-align: center;
+  }
+
+  .App-header {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: purple;
+    top: 4em;
+    font-size: 5em;
+    padding: 1em;
+    margin-right: 0em;
+  }
+
+  .App-header h1 {
+    color: black;
+    display: none;
+  }
+}

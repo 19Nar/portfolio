@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
+
+.contact {
+  position: relative;
+  top: 20em;
+  left: 15em;
+  text-align: left;
+}
+
+.contact-content ul div {
+  display: inline;
+  padding-right: 2em;
+}
+
+.contact h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5em;
+  text-align: left;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact img {
+  max-width: 40px;
+  max-height: 50px;
+}
+
+.amazing {
+  color: #9352ae;
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .contact {
+    top: 13em;
+    left: 4em;
+  }
+  .contact h1 {
+    font-size: 5em;
+  }
+  .contact-content ul div {
+    display: inline;
+    padding-right: 2em;
+  }
+  .contact-content ul {
+    padding: 0;
+  }
+  .contact img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .contact {
+    top: 10em;
+    left: 3em;
+  }
+  .contact h1 {
+    font-size: 3em;
+  }
+  .contact-content ul div {
+    display: inline;
+    padding-right: 2em;
+  }
+  .contact-content ul {
+    padding: 0;
+  }
+  .contact img {
+    height: 40px;
+    width: 40px;
+  }
+}
