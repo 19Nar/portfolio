@@ -37,7 +37,7 @@ export default {
       "#React.js   #MongoDB   #Express.js",
   ],
       imageSrc: Movie,
-      url: "/moviecms",
+      url: "http://www.narinevanbeginne.be/movie",
     },
     {
       id: 2,
