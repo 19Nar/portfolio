@@ -6,7 +6,7 @@ All what you need to know about my Portfolio Project:
 
 ⚡️ Styled with React Scroll
 
-⚡️ Fully Responsive
+⚡️ Handled for Mobile and Ipad
 
 ⚡️ Valid HTML5 & CSS3
 
