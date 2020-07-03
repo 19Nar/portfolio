@@ -1,7 +1,9 @@
 All what you need to know about my Portfolio Project:
 
 ⚡️ One Page Layout
+
 ⚡️ Created with React
+
 ⚡️ Styled with React Scroll
 ⚡️ Fully Responsive
 ⚡️ Valid HTML5 & CSS3
