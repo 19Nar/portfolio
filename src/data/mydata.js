@@ -26,7 +26,10 @@ export default {
     "Een degelijke backend is enorm belangrijk voor een webapplicatie.",
   ],
   aboutskills:
-    "HTML5/CSS (Bootstrap 4, Grid, Flexbox), Javascript, Restful API, GIT/Node/Express, MongoDB, Vue/React.",
+    "HTML5/CSS (Bootstrap 4, Grid, Flexbox), Javascript, Restful API, GIT/Node/Express, MongoDB, Vue/React."
+  "IBM Badges & Certificates" 
+  "IBM Enterprise Environment, TSO/ISPF, JCL, Datasets, Data Utilities, VSAM, SDSF, REXX, COBOL," 
+  "Data Storage Management, Db2, WebSphere Application Server, Business Operations, Cryptography",
   aboutlanguages: " Engels,  Nederlands,  Frans,  Russisch,  Armeens ",
   ShowAboutImage: true,
   projects: [
